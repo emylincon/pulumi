@@ -1,0 +1,5 @@
+config:
+  aws:region: us-west-2
+  inspiring-strontium-pacu-fish:instanceType: t3.micro
+  inspiring-strontium-pacu-fish:vpcNetworkCidr: 10.0.0.0/16
+  pulumi:template: vm-aws-go
